@@ -1,0 +1,114 @@
+body {
+    max-width: 90%;
+    margin: auto;
+}
+
+header h3 {
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.section {
+    width: 50%;
+    justify-content: space-between;
+}
+
+.section img {
+    width: 100%;
+}
+
+.section h3 {
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+
+.section p {
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin-bottom: 50px;
+}
+
+.section button {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    background: var(--gray-1, #333);
+    padding: 20px 40px;
+}
+
+footer {
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer p small a {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width:576px) {
+    main {
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .section h3 {
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.68px;
+    }
+
+    .section p {
+        color: var(--gray-2, #4F4F4F);
+        font-family: Space Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.63px;
+    }
+}
